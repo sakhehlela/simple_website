@@ -12,6 +12,11 @@ header {
     color: #fff;
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -42,7 +47,7 @@ main {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 4rem auto 2rem;
     border-radius: 8px;
 }
 
@@ -96,7 +101,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 form button {
     background-color: #005f99;
     color: #fff;
@@ -120,7 +124,6 @@ form button:hover {
     object-position: center top;
     margin: 1rem 0;
 }
-
 
 button {
     background-color: #005f99;
