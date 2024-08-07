@@ -139,3 +139,15 @@ button {
 button:hover {
     background-color: #004080;
 }
+
+#news, #weather {
+    margin-bottom: 2rem;
+}
+
+#news-container, #weather-container {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
